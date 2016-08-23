@@ -1,0 +1,70 @@
+
+.carousel-image{
+    background-image: cover;
+    height: 600px;
+}
+
+.feature-list{
+    font-size: 19px;
+    text-align: left;
+    margin: 5px 20px;
+}
+
+.carousel-caption{
+    z-index: 10;
+    top:50px;
+    /*width: 100%;   */
+    font-family: inherit;
+    margin-bottom: 80px;
+}
+.carousel-heading{
+    text-align: left;
+    font-size: 265%;
+}
+.carousel-para{
+    font-size: 18px;
+}
+.showcase-image{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.server-image{
+    height: 360px;
+    margin-top: 0px;
+}
+
+.marketing{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pricing-section{
+    margin-top: 50px;
+}
+
+.services-list > li{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid gray;
+    /*width: 100%;*/
+    margin: 10px 20px 5px 0;
+    
+    /*margin-right: 20px;*/
+}
+
+.footer-link{
+    color:lightgreen;
+}
+
+.hr{
+    color: gray;
+    height: 1px;
+    border: 1px solid gray;
+    background: gray;
+}
+
+footer > a {
+    text-decoration: none;
+}
