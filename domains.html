@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IGGI WebHosting</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/customized/customized.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/customized/slate-bs.min.css">
+    <script type="text/javascript" src="./bootstrap/js/jquery.js"></script>
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+                <a class="navbar-brand" href="#">IGGI Web Hosting</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="./domains.html">Domains</a></li>
+                    <li><a href="./contact.html">Contacts</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right pull-right">
+                    <li data-toggle="modal" data-target="#myModal"><a href="#">Login</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-addon">
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!--NAV BAR ENDS-->
+    <section>
+        <div class="jumbotron text-center">
+            <div class="container">
+                <h1 class="heading"> <span class="fa fa-home"></span> &ensp;Domain Name Registration</h1>
+                <p class="text-center">
+                    Vivamus sollicitudin sapien eu nibh luctus efficitur. Morbi diam mi, fermentum a tincidunt tincidunt, ornare vel felis. Proin
+                    massa leo, tincidunt id nibh a, accumsan viverra nulla. Aenean id sapien et ante facilisis placerat at
+                    vel enim. Curabitur non nibh massa. Donec id malesuada tortor
+                </p>
+                <br>
+                <!--<div class="well">-->
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Domain Name">
+                                <div class="input-group-addon btn btn-danger"><strong>SEARCH &ensp;</strong><span class="fa fa-arrow-right"></span></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--</div>-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="well">
+            <h2> <span class="fa fa-lock"></span> Domain Privacy</h2>
+            <p>Aliquam sagittis, arcu id laoreet ultricies, est quam euismod metus, sed venenatis magna odio gravida enim. Morbi
+                accumsan, magna ac semper mattis, quam magna interdum nulla, vel sollicitudin mi mi vel ante.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="col-md-6">
+            <div class="well">
+
+                <h2> <span class="fa fa-check"></span> Free Domain</h2>
+                <p>Aliquam sagittis, arcu id laoreet ultricies, est quam euismod metus, sed venenatis magna odio gravida enim.
+                    Morbi accumsan, magna ac semper mattis, quam magna interdum nulla, vel sollicitudin mi mi vel ante.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="well">
+
+                <h2> <span class="fa fa-users"></span> Multiple Domains </h2>
+                <p> Aliquam sagittis, arcu id laoreet ultricies, est quam euismod metus, sed venenatis magna odio gravida enim.
+                    Morbi accumsan, magna ac semper mattis, quam magna interdum nulla, vel sollicitudin mi mi vel ante.</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Account ID: </label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Account id">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password: </label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-default ">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-default">
+        <div class="container alert">
+            <h4 class="pull-left">MEA2N Hosting &copy; 2016. <a href="#" class="footer-link">Privacy Terms</a></h4>
+            <h4 class="pull-right"> <a href="#navbar"> Back To Top </a> </h4>
+        </div>
+    </footer>
+</body>
+
+</html>
